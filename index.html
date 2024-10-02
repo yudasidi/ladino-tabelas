@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="titleDiv">
+    <p class="titleText">Tabelas de verbos en Ladino</p>
+    <button class="titleButton">Normal Mode</button>
+    <button class="titleButton">Browse Irregular</button>
+  </div>
+
+  <div class="normalDiv">
+    <input class="normalVerbInput" type="text" placeholder="Eskrive un verbo ..."> <button class="magnifier"><img class="magnifier" src="img/icons8-magnifying-glass-50.png"></button>
+  </div>
+
+  <div class="browseDiv">
+    <input class="browseVerbInput" type="text" placeholder="Select a verb">
+    <ul class="browseVerbList">
+    </ul>
+  </div>
+  
+  <div class="messageDiv">
+    <p>Message text</p>
+   </div>
+  <div class="conjugationDiv">
+  </div>
+
+    <script src="js/irregularType.js" type="text/javascript"></script>
+    <script src="data/irregularVerbsData.js" type="text/javascript"></script>
+    <script src="data/regularVerbsData.js" type="text/javascript"></script>
+
+    <script src="js/irregularVerbs.js" type="text/javascript"></script>
+    <script src="js/buildhtml.js" type="text/javascript"></script>
+    <script src="js/conjugate.js" type="text/javascript"></script>
+    <script src="js/browsemode.js" type="text/javascript"></script>
+    <script src="js/normalmode.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>
